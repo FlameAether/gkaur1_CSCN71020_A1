@@ -20,9 +20,16 @@ void main() {
 	switch (inputNum)
 	{
 	case 1:
+	{
 		add();
+		exit(0);
+	}
 	case 2: 
+	{
 		subtract();
+		exit(0);
+	}
+
 	}
 
 }
